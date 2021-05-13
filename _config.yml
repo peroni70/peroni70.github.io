@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : 
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Matthew Peroni"
 description              : &description "personal description"
 url                      : https://peroni70.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Matthew Peroni"
   avatar           : "me.jpg"
-  bio              : "Software Engineer @ Capital One | Building intelligent systems for risk management"
-  location         : "Bedford, MA"
+  bio              : "Software Engineer, Machine Learning @ Capital One"
+  location         : "Cambridge, MA"
   employer         :
   pubmed           : 
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : 
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "peroni70"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
