@@ -38,7 +38,7 @@ When the API is built, it creates a [Faiss index](https://github.com/facebookres
 
 The script above is the __entirety__ of what I had to implement in the backend to serve a full semantic search (even the tokenization is handled by the SentenceTransformer API).  
 
-The only thing to call out here is that I'm using the `faiss.IndexFlatIP` index, and I'm normalizing the embeddings. This index computes inner products (or dot products) to measure distance between vectors (as opposed to L2-distance). The model is designed to compare sentences via _cosine similarity_, and, recalling some linear algebra, for two vectors __A__, __B__, we have that __<A,B> = |A||B|Cos(A,B)__, where __<>__ represents the inner product. Then, when we normalize our embeddings, we have __|A| = |B| = 1__, so __<A,B> = Cos(A,B)__. Then this set-up is equivalent to computing the cosine similarity between embeddings.
+The only thing to call out here is that I'm using the `faiss.IndexFlatIP` index, and I'm normalizing the embeddings. This index computes inner products (or dot products) to measure distance between vectors (as opposed to L2-distance). The model is designed to compare sentences via _cosine similarity_, and, recalling some linear algebra, for two vectors `A`,`B`, we have that `<A,B> = |A||B|Cos(A,B)`, where `<>` represents the inner product. Then, when we normalize our embeddings, we have `|A| = |B| = 1`, so `<A,B> = Cos(A,B)`. Then this set-up is equivalent to computing the cosine similarity between embeddings.
 
 ## Exploring the Results
 
