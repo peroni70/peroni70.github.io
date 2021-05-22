@@ -64,7 +64,7 @@ The cluster shown above have some of the most positive values for that dimension
 The other dimension is harder to interpret. It seems to have something to do with how 'fictional' or 'fantastical' the movie is - whether it is based on real people, or is perhaps a story that could occur in real life, versus fantasty stories including sci-fi and superhero movies (and lots of Tarantino movies). 
 
 ![](/images/bokeh_fantasy.png)
-This orange cluster on one extreme of this dimension, clearly contains lost of sci-fi fantasy movies
+This orange cluster on one extreme of this dimension, clearly contains lots of sci-fi fantasy movies
 
 ![](/images/bokeh_reality.png)
 This brown cluster contains more 'grounded' movies that deal with more realistic aspects of human life, here on earth. 
