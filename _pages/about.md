@@ -10,7 +10,7 @@ redirect_from:
 
 Hello! I am a software engineer at Capital One, based out of Cambridge, MA. Prior to joining Capital One, I received a B.A. in Mathematics from Cornell, concentrating in Applied Mathematics and Computer Science.
 
-My recent work has been focused on building out an intelligent search application aimed to simplify the dense and chaotic network of regulatory documents. 
+My recent work has been focused on building out intelligent search applications aimed to simplify the dense and chaotic network of regulatory documents. 
 
 Currently, my primary tech stack includes Python, Go, SQL, AWS (including Lambdas), Airflow, Django and Vue. I do most of my machine learning work in Python with the usual suspects, such as Pytorch, Scikit-learn, Gensim, and Hugging Face.
 
