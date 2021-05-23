@@ -19,7 +19,7 @@ Work experience
 * Software Engineer, Capital One, Cambridge, MA (August 2020 - Present)
   * Developing a semantic recommendation system with underlying NLP models to simplify and improve the experience of finding relevant regulatory documents for our risk associates. 
   * Owned end-to-end development of a new intelligent search feature. Designed implementation plan, conducted experiments, documented and presented results, integrated final model selection into backend, and updated the ETL pipeline and UI. Implemented feature toggling, which led to zero downtime in production when new feature was deployed. 
-  * Transitioned one of our core application ML models from a Word2Vec-based architecture to sentence-BERT after successfully generating buy-in from product owners. Finalized fine-tuned model yielded 15% increase in primary KPI. 
+  * Transitioning one of our core application ML models from a Word2Vec-based architecture to sentence-BERT after successfully generating buy-in from product owners. Finalized fine-tuned model yielded 15% increase in primary KPI. 
   * Led model improvement, automation, and internal marketing efforts, including a collaboration with internal ML platform team to automate model training, evaluation, and logging. 
   * Streamlined app search experience by generalizing core ML model to support two use-cases. 
   * Organized and led presentations with diverse internal audiences, covering topics such as word embedding models and deploying NLP services to production. 
@@ -35,14 +35,15 @@ in forecasting ability from 30 days to 120 days.
   * Created a full-stack dashboard to analyze online model performance with a backend
 written in Go, using Google Cloud Platform for data storage and Grafana for data visualization.
   
-Skills
+Languages + Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+My primary language for development _currently_ is Python, and my secondary langauge is Go. I also have experience with functional programming in OCaml (not professionally) and greatly enjoy working with this paradigm.
+
+* __Python__
+  * Experienced with data science, statistics, and machine learning libraries
+  * Develop APIs with Django/Flask
+* __Go__ 
+
 
 Publications
 ======
@@ -62,5 +63,6 @@ Teaching
 Projects
 ======
 * [Semantic Movie Search](https://peroni70.github.io/posts/2021/05/movie-search-1/)
+
 
 
