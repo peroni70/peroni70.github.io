@@ -16,17 +16,16 @@ Education
 
 Work experience
 ======
-* Software Engineer, Capital One, Cambridge, MA (August 2020 - Present)
-  * Developing a semantic recommendation system with underlying NLP models to simplify and improve the experience of finding relevant regulatory documents for our risk associates. 
-  * Owned end-to-end development of a new intelligent search feature. Designed implementation plan, conducted experiments, documented and presented results, integrated final model selection into backend, and updated the ETL pipeline and UI. Implemented feature toggling, which led to zero downtime in production when new feature was deployed. 
-  * Transitioning one of our core application ML models from a Word2Vec-based architecture to sentence-BERT after successfully generating buy-in from product owners. Finalized fine-tuned model yielded 15% increase in primary KPI. 
-  * Led model improvement, automation, and internal marketing efforts, including a collaboration with internal ML platform team to automate model training, evaluation, and logging. 
-  * Streamlined app search experience by generalizing core ML model to support two use-cases. 
+* __Software Engineer, Machine Learning -  Capital One, Cambridge, MA (August 2020 - Present)__
+  * Developing a suite of semantic recommendation systems with underlying NLP models to simplify and improve the experience of both finding and creating relevant and effective regulatory documents for our risk associates. 
+  * Owned end-to-end development of a new intelligent search feature. Designed implementation plan, conducted experiments, documented and presented results, integrated final model selection into backend, and updated the ETL pipeline and UI.
+  * Pitched and created an intelligent writing assistant tool based on a custom BERT classification model and spaCy language model for a company Hackathon. Project won 2nd place and development is being continued. 
+  * Creating a Q&A information retrieval system for policy documents based on a sentence-BERT model to improve the experience of answering policy-related questions. 
   * Organized and led presentations with diverse internal audiences, covering topics such as word embedding models and deploying NLP services to production. 
-  * Tech: Python, Django, Vue.js, Apache Airflow, AWS, SQL, PyTorch, Gensim, Hugging Face
+  * Tech: Python, Django, Vue.js, Apache Airflow, AWS, SQL, PyTorch, Gensim, Hugging Face, spaCy, Word2Vec, sentence-BERT
 
 
-* Software Engineer Intern, Schlumberger, Houston, TX (June 2019 - August 2019)
+* __Software Engineer Intern - Schlumberger, Houston, TX (June 2019 - August 2019)__
   * Developed a python package for predictive monitoring and analysis of processing
 facilities containing nonlinear Bayesian filters, online event detection, and forecasting
 for time series data.
@@ -37,12 +36,26 @@ written in Go, using Google Cloud Platform for data storage and Grafana for data
   
 Languages + Skills
 ======
-My primary language for development _currently_ is Python, and my secondary langauge is Go. I also have experience with functional programming in OCaml (not professionally) and greatly enjoy working with this paradigm.
+_Currently_, my primary language for development is Python, and my secondary language is Go. I also have experience with functional programming in OCaml (not professionally) and greatly enjoy working with this paradigm.
 
 * __Python__
   * Experienced with data science, statistics, and machine learning libraries
   * Develop APIs with Django/Flask
 * __Go__ 
+  * Experience developing Golang-based AWS Lambdas
+* Java, OCaml
+  * Non-professional experience during college, not recently used
+
+### Machine Learning Skills
+* Supervised + Unsupervised Learning
+  * Industry Experience +  Coursework [ [1](https://www.cs.cornell.edu/courses/cs4780/2019fa/), [2](https://www.cs.cornell.edu/courses/cs4786/2019sp/), [3](https://www.cs.cornell.edu/courses/cs6781/2020sp/) ]
+* NLP
+  * Information Retrieval, Classification, Feature Extraction + Named-Entity Recognition
+* Data visualization + Model Interpretation 
+* State Estimation + Anomaly Detection
+* Markov Decision Processes
+* Mathematical Statistics + Machine Learning Theory
+  * Graduate Coursework [ [1](https://www.cs.cornell.edu/courses/cs6781/2020sp/), [2](https://pi.math.cornell.edu/m/Courses/GradCourses/fa16/6230.html), [3](https://www.cs.cornell.edu/courses/cs6840/2020sp/) ]
 
 
 Publications
@@ -63,6 +76,7 @@ Teaching
 Projects
 ======
 * [Semantic Movie Search](https://peroni70.github.io/posts/2021/05/movie-search-1/)
+* More projects, old and new, coming soon!
 
 
 
