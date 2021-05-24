@@ -78,5 +78,8 @@ Projects
 * [Semantic Movie Search](https://peroni70.github.io/posts/2021/05/movie-search-1/)
 * More projects, old and new, coming soon!
 
+Certifications
+======
+AWS Solutions Architect - Associate (April 2021 - April 2024)
 
 
