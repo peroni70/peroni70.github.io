@@ -19,7 +19,7 @@ Work experience
 * __Software Engineer, Machine Learning -  Capital One, Cambridge, MA (August 2020 - Present)__
   * Developing a suite of semantic recommendation systems with underlying NLP models to simplify and improve the experience of both finding and creating relevant and effective regulatory documents for our risk associates. 
   * Owned end-to-end development of a new intelligent search feature. Designed implementation plan, conducted experiments, documented and presented results, integrated final model selection into backend, and updated the ETL pipeline and UI.
-  * Pitched and created an intelligent writing assistant tool based on a custom BERT classification model and spaCy language model for a company Hackathon. Project won 2nd place and development is being continued. 
+  * Pitched and created an intelligent writing assistant tool for our domain based on a custom BERT classification model and spaCy language model for a company Hackathon. Project won 2nd place and development is being continued. 
   * Creating a Q&A information retrieval system for policy documents based on a sentence-BERT model to improve the experience of answering policy-related questions. 
   * Organized and led presentations with diverse internal audiences, covering topics such as word embedding models and deploying NLP services to production. 
   * Tech: Python, Django, Vue.js, Apache Airflow, AWS, SQL, PyTorch, Gensim, Hugging Face, spaCy, Word2Vec, sentence-BERT
@@ -45,6 +45,7 @@ _Currently_, my primary language for development is Python, and my secondary lan
   * Experience developing Golang-based AWS Lambdas
 * Java, OCaml
   * Non-professional experience during college, not recently used
+* Tech:Docker, AWS, SQL, Git, Apache Airflow, Rubicon (model logging)
 
 ### Machine Learning Skills
 * Supervised + Unsupervised Learning
