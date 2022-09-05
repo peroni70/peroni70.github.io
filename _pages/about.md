@@ -13,25 +13,8 @@ Hello! I'm a grad student at MIT in the [Operations Research Center](https://orc
 
 Before joining MIT, I was a Machine Learning Engineer at a [Enolink](https://www.enolink.com/#top-hero), a Healthcare AI start-up based out of Cambridge, MA. There, I had the amazing opportunity to work with a great group of people on designing and deploying clinical decision support systems. Prior to that, I was a software engineer, machine learning at Capital One working on applied NLP projects, building intelligent search and recommendation systems. I received a B.A. in Mathematics from Cornell in the Spring of 2020, concentrating in Applied Mathematics and Computer Science.
 
-<!-- At Capital One, my work was been focused on building out intelligent search applications aimed to simplify the dense and chaotic network of regulatory documents.  -->
  
-As a developer, I use Python as my primary general-purpose language for backend development, data engineering, and data science. My tech stack roughly breaks down as
-* Languages: __Python__, Go, SQL
-  * Older experience with Java, OCaml
-* Deployment + CI/CD: AWS (SA certified), K8s, Docker, Ansible, Gitlab
-* Data Engineering: Airflow, Dask
-* App Dev: Flask, Django, Vue
-* Machine Learning: Python
-  * PyTorch for deep learning, scikit-learn for general purpose stuff
-  * A large variety of tools for specific applications (spaCy, gensim, XGBoost, lifelines, etc.)
-
-Check out my [CV](https://peroni70.github.io/cv/) for more details!
-
- <!-- but I also have professional experience with Go, SQL and _a little_ Javascript. In the past, I've worked on some projects with Java and OCaml. For deployment and CI/CD, I've used AWS, K8s, Docker, and Ansible. I've used Airflow, Dask, 
-
-As a developer, my tech stack includes Python, Go, AWS, K8s, Docker, SQL, Airflow, Dask, Django, Flask and Vue. I do most of my machine learning work in Python with the usual suspects, and mainly use PyTorch for deep learning projects. -->
-
-<!-- Outside of work, I remain interested in certain research topics, including algorithmic game theory and the intersection of learning theory and game theory. Particularly, I enjoy thinking about the contexts within which learning systems are placed and the interactions both between people and learning systems as well as interactions between learning systems.  -->
+As a developer, I use Python as my primary general-purpose language for backend development, data engineering, and data science. My tech stack includes Python, Go, SQL, AWS (SA Certified), K8s, Docker, Ansible, Gitlab, Flask/Django, and Vue. For data engineering, I've worked with Airflow and Dask. For data science work, I've used (and developed) many libraries in Python, using primarily PyTorch for deep learning projects, along with spaCy, gensim, and Hugging Face for NLP, and things like scikit-learn and XGBoost for more general-purpose DS work. I also have experience with survival analysis (using libraries like lifelines) and tools for interpretability and explainability (shap, NAM, EBM, etc.). Check out my [CV](https://peroni70.github.io/cv/) for more details!
 
 Check out my latest blog posts [Old-ish]
 ======
