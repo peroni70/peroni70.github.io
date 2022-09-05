@@ -11,12 +11,18 @@ redirect_from:
 
 Education
 ======
+* S.M. in Operations Research, Massachusetts Institute of Technology, expected 2024
+  * Advised by Professor Dimitris Bertsimas
 * B.A. in Mathematics with Honors, Cornell University, 2020
   * Concentration in Applied Math, Minor in Computer Science
 
 Work experience
 ======
-* __Software Engineer, Machine Learning -  Capital One, Cambridge, MA (August 2020 - Present)__
+* __Machine Learning Engineer - Enolink Technologies, Cambridge, MA (September 2021 - September 2022)__
+
+  [Under Construction]
+  
+* __Software Engineer, Machine Learning -  Capital One, Cambridge, MA (August 2020 - September 2021)__
   * Developing a suite of semantic recommendation systems with underlying NLP models to simplify and improve the experience of both finding and creating relevant and effective regulatory documents for our risk associates. 
   * Owned end-to-end development of a new intelligent search feature. Designed implementation plan, conducted experiments, documented and presented results, integrated final model selection into backend, and updated the ETL pipeline and UI.
   * Pitched and created an intelligent writing assistant tool for our domain based on a custom BERT classification model and spaCy language model for a company Hackathon. Project won 2nd place and development is being continued. 
