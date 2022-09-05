@@ -21,7 +21,7 @@ Work experience
 * __Machine Learning Engineer - Enolink Technologies, Cambridge, MA (September 2021 - September 2022)__
 
   [Under Construction]
-  
+
 * __Software Engineer, Machine Learning -  Capital One, Cambridge, MA (August 2020 - September 2021)__
   * Developing a suite of semantic recommendation systems with underlying NLP models to simplify and improve the experience of both finding and creating relevant and effective regulatory documents for our risk associates. 
   * Owned end-to-end development of a new intelligent search feature. Designed implementation plan, conducted experiments, documented and presented results, integrated final model selection into backend, and updated the ETL pipeline and UI.
@@ -47,13 +47,18 @@ _Currently_, my primary language for development is Python, and my secondary lan
 * __Python__
   * Experienced with data science, statistics, and machine learning libraries
   * Develop APIs with Django/Flask
+  * Data Engineering with Airflow + Dask
 * __Go__ 
   * Experience developing Golang-based AWS Lambdas
+* SQL
+  * Used as needed on data projects (moderate skill)
 * Java, OCaml
   * Non-professional experience during college, not recently used
-* Tech:Docker, AWS, SQL, Git, Apache Airflow, Rubicon (model logging)
+* Deployment + CI/CD: Docker, K8s, AWS (SA Certified), Git, Gitlab CI/CD
 
 ### Machine Learning Skills
+* Interpretable ML
+* Survival Analysis
 * Supervised + Unsupervised Learning
   * Industry Experience +  Coursework [ [1](https://www.cs.cornell.edu/courses/cs4780/2019fa/), [2](https://www.cs.cornell.edu/courses/cs4786/2019sp/), [3](https://www.cs.cornell.edu/courses/cs6781/2020sp/) ]
 * NLP
