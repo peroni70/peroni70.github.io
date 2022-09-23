@@ -11,13 +11,10 @@ redirect_from:
 Hello! I'm a grad student at MIT in the <a href="https://orc.mit.edu/" target="_blank">Operations Research Center</a> (ORC) where I am extremely fortunate to be advised by Professor <a href="https://dbertsim.mit.edu/" target="_blank">Dimitris Bertsimas</a>. I'm currently focused on building interpretable, incentive-aware and robust machine learning systems for high-stakes decision making, especially in the healthcare domain. 
 
 
-<a href="https://www.enolink.com/#top-hero" target="_blank">Enolink</a>
-
-
 Before joining MIT, I was a Machine Learning Engineer at a <a href="https://www.enolink.com/#top-hero" target="_blank">Enolink</a>, a Healthcare AI start-up based out of Cambridge, MA. There, I had the amazing opportunity to work with a great group of people on designing and deploying clinical decision support systems. Prior to that, I was a software engineer, machine learning at Capital One working on applied NLP projects, building intelligent search and recommendation systems. I received a B.A. in Mathematics from Cornell in the Spring of 2020, concentrating in Applied Mathematics and Computer Science.
 
  
-As a developer, I use Python as my primary general-purpose language for backend development, data engineering, and data science. My tech stack includes Python, Go, SQL, AWS (SA Certified), K8s, Docker, Ansible, Gitlab, Flask/Django, and Vue. For data engineering, I've worked with Airflow and Dask. For data science work, I've used (and developed) many libraries in Python, using primarily PyTorch for deep learning projects, along with a host of other libraries for specific applications such as NLP, Survival Analysis, Explainable + Interpretable ML, tabluar data, etc. Check out my [CV](https://peroni70.github.io/cv/) for more details!
+As a developer, I use Python as my primary general-purpose language for backend development, data engineering, and data science. My tech stack includes Python, Go, SQL, AWS (SA Certified), K8s, Docker, Ansible, Gitlab, Flask/Django, and Vue. For data engineering, I've worked with Airflow and Dask. For data science work, I've used (and developed) many libraries in Python, using primarily PyTorch for deep learning projects, along with a host of other libraries for specific applications such as NLP, Survival Analysis, Explainable + Interpretable ML, tabluar data, and more. Check out my [CV](https://peroni70.github.io/cv/) for more details!
 
 Check out my latest blog posts [Old-ish]
 ======
