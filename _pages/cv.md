@@ -88,6 +88,21 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Patents
+======
+
+A Discriminative Model to Identify and Demarcate Textual Features in Risk Control Documents
+- Application Filed
+- Submitted 8/12/2022
+
+System for Suggesting Words, Phrases or Entities to complete sequences in Risk Control documents
+- Application Filed
+- Submitted 8/10/2022
+
+Hybrid Model and System For Predicting Quality and Identifying Features and Entities of Risk Controls
+- Application Filed
+- Submitted 5/17/2022
   
 Teaching
 ======

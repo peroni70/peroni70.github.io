@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+along with spaCy, gensim, and Hugging Face for NLP, and things like scikit-learn and XGBoost for more general-purpose DS work. I also have experience with survival analysis (using libraries like lifelines) and tools for interpretability and explainability (shap, NAM, EBM, etc.). Check out my [CV](https://peroni70.github.io/cv/) for more details!
+
 Hello! I am a software engineer at Capital One, based out of Cambridge, MA. Prior to joining Capital One, I received a B.A. in Mathematics from Cornell, concentrating in Applied Mathematics and Computer Science.
 
 My recent work has been focused on building out an intelligent search application aimed to simplify the chaotic network of regulatory documents 
