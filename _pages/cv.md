@@ -11,11 +11,25 @@ redirect_from:
 
 Education
 ======
-* S.M. in Operations Research, Massachusetts Institute of Technology, expected 2024
+* Ph.D. in Operations Research, Massachusetts Institute of Technology, expected 2025
   * Advised by Professor Dimitris Bertsimas
   * Research Topics: Machine Learning for Healthcare, Interpretable Deep Learning, Multi-modal Machine Learning
+  * GPA 5.0/5.0
 * B.A. in Mathematics with Honors, Cornell University, 2020
   * Concentration in Applied Math, Minor in Computer Science
+
+Research
+======
+For my Ph.D., I am advised by Professor Dimitris Bertsimas, working broadly on machine learning for high-stakes decision-making, specifically in the healthcare domain. My current work includes the following topics:
+ * __Interpretable Deep Learning__ - Developing new methods and model architectures
+to create inherently intelligble deep learning model, with a focus on healthcare
+applications.
+ * [__Multi-Modal AI for Healthcare__](https://hartfordhealthcare.org/about-us/innovation/mit) - Leading architecture and engineering development of HAIM 2.0, a multi-modal ML framework for creating models that integrate
+many data modalities often found in healthcare data. Serve as point-of-contact for
+our Hospital partners regarding data and compute infrastructure, encompassing 14 ongoing
+research projects.
+* __Model Selection and Deferral__ - Developing methods for selecting which ML models to use, and when to defer to human judgment, in high-stakes decision-making
+scenarios.
 
 Work experience
 ======
@@ -71,7 +85,7 @@ My primary language for development is __Python__, but I also have some professi
 While a lot of my knowledge and experience in building ML systems comes from working on a variety of awesome projects in industry (mentioned above), I've also sat down and cranked out the math in a variety of courses, such as [Unsupervised Learning]((https://www.cs.cornell.edu/courses/cs4786/2019sp/)), [Supervised Learning]((https://www.cs.cornell.edu/courses/cs4780/2019fa/)), (Graduate) [Foundations of Modern Machine Learnging]((https://www.cs.cornell.edu/courses/cs6781/2020sp/)), and (Graduate) Machine Learning Under a Modern Optimization Lens to name a few. My skills include:
 * Interpretable ML and Explainable AI (XAI)
 * NLP
-  * Information Retrieval, Classification, Feature Extraction + Named-Entity Recognition
+  * Information Retrieval, Classification, Feature Extraction + Named-Entity Recognition, Generative Models
 * Survival Analysis
 * Supervised + Unsupervised Learning
   * Industry Experience +  Coursework [ [1](https://www.cs.cornell.edu/courses/cs4780/2019fa/), [2](https://www.cs.cornell.edu/courses/cs4786/2019sp/), [3](https://www.cs.cornell.edu/courses/cs6781/2020sp/) ]
@@ -85,9 +99,13 @@ While a lot of my knowledge and experience in building ML systems comes from wor
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+See my [Google Scholar](https://scholar.google.com/citations?hl=en&user=kvjX-dIAAAAJ) page for the most up-to-date list of publications.
+
+Talks
+======
+* (Upcoming) __Interpretable NLP For Identifying Risk Factors Of Intimate Partner Violence In Clinical Notes__, INFORMS Annual Conference, October 2023, Phoenix, AZ
+* __Interpretable TabText__, INFORMS Healthcare, July 2023, Toronto, Canada
 
 Patents
 ======
