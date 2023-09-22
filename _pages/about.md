@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a grad student at MIT in the <a href="https://orc.mit.edu/" target="_blank">Operations Research Center</a> (ORC) where I am extremely fortunate to be advised by Professor <a href="https://www.dbertsim.mit.edu/" target="_blank">Dimitris Bertsimas</a>. I'm currently focused on building interpretable, multi-modal, and robust machine learning systems for high-stakes decision making, especially in the healthcare domain. 
+Hello! I'm a Ph.D. student at MIT in the <a href="https://orc.mit.edu/" target="_blank">Operations Research Center</a> (ORC) where I am extremely fortunate to be advised by Professor <a href="https://www.dbertsim.mit.edu/" target="_blank">Dimitris Bertsimas</a>. I'm currently focused on building interpretable, multi-modal, and robust machine learning systems for high-stakes decision making, especially in the healthcare domain. 
 
 
 Before joining MIT, I was a Machine Learning Engineer at <a href="https://www.enolink.com/#top-hero" target="_blank">Enolink</a>, a Healthcare AI start-up based out of Cambridge, MA. There, I had the opportunity to work with a great group of people on designing and deploying clinical decision support systems. Prior to that, I was a software engineer in machine learning at Capital One working on applied NLP projects, building intelligent search and recommendation systems. I received a B.A. in Mathematics from Cornell in the Spring of 2020, with concentrations in Applied Mathematics and Computer Science.
