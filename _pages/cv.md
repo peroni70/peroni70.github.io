@@ -90,6 +90,8 @@ My primary language for development is __Python__, but I also have some professi
   * Experienced using and developing data science, statistics, and machine learning libraries
   * Develop APIs with Django/Flask
   * Data Engineering with Airflow + Dask
+* __Julia__
+  * Research experience implementing optimization models using JuMP, Convex.jl, and Gurobi
 * __Go__ 
   * Experience developing Golang-based AWS Lambdas
 * SQL
