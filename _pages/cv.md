@@ -34,17 +34,34 @@ scenarios.
 Work experience
 ======
 * __Machine Learning Engineer - Enolink Technologies, Cambridge, MA (September 2021 - September 2022)__
-  * Develop, deploy, and scale risk models for clinical decision support systems that are currently in use at Hospitals in South Korea. Owned end-to-end development of new features from model experimentation to infrastructure and platform engineering, model serving and backend development.
-   * Led research efforts for interpretability and explainability methods for risk models within the company, developing novel interpretable deep learning methods for survival analysis that have been submitted to Machine Learning for Health 2022 (that match the accuracy of state-of-the-art models while preserving interpretability).
-  * Led engineering for the company’s first product pilot launch, which included: 
-    * Automating application deployment to both AWS environments and the hospital network using Ansible, Kubernetes, and Gitlab CI/CD
-    * Implementing performance improvements for the API and model serving, reducing response/inference time by an order of magnitude (O(10s) to O(1s))
-    * Upgrading logging aggregation by integrating Loki/Grafana
-    * Upgrading data pipelines
-    * Conducting weekly meetings with clinicians and hospital IT staff
-  * Built the backend for one of our primary clinical decision support applications, including features to surface model predictions, generate (SHAP) model explanations and simulation results, and provide integrations with our data pipeline to yield patient information.
-  * Designed and implemented functionality to serve SHAP model explanations stratified by patient cohort, enabling more precise risk assesments.
-  * Conducted behavioral and technical interviews with candidates for full-time machine learning engineer roles.
+
+*  Develop, deploy, and scale risk models for clinical decision support systems that are
+currently in use at Hospitals in South Korea. Owned end-to-end development of
+new features from model experimentation to infrastructure and platform engineering,
+model serving and backend development.
+* Led research efforts for interpretability and explainability methods for risk models
+within the company, developing novel interpretable deep learning methods for survival
+analysis that have been submitted to Machine Learning for Health 2022 (that match
+the accuracy of state-of-the-art models while preserving interpretability).
+* Led engineering for the company’s first product pilot launch, which included:
+  * Automating application deployment to both AWS environments and the hospital
+network using Ansible, Kubernetes, and Gitlab CI/CD
+  * Implementing performance improvements for the API and model serving, reducing
+response/inference time by an order of magnitude (O(10s) to O(1s))
+  * Upgrading logging aggregation by integrating Loki/Grafana
+  * Upgrading data pipelines
+  * Conducting weekly meetings with clinicians and hospital IT staff
+* Built the backend for one of our primary clinical decision support applications,
+including features to surface model predictions, generate (SHAP) model explanations
+and simulation results, and provide integrations with our data pipeline to yield patient
+information.
+* Designed and implemented functionality to serve SHAP model explanations stratified
+by patient cohort, enabling more precise risk assesments.
+* Conducted behavioral and technical interviews with candidates for full-time machine
+learning engineer roles.
+* Tech: Python, Flask, Kubernetes, AWS, sklearn, shap, Dask, Lifelines (survival
+analysis)
+
 
 
 * __Software Engineer, Machine Learning -  Capital One, Cambridge, MA (August 2020 - September 2021)__
@@ -79,7 +96,7 @@ My primary language for development is __Python__, but I also have some professi
   * Used as needed on data projects (moderate skill)
 * Java, OCaml
   * Non-professional experience during college, not recently used
-* Deployment + CI/CD: Docker, K8s, AWS (SA Certified), Git, Gitlab CI/CD
+* Deployment + CI/CD: Docker, K8s, AWS (SA Certified), Ansible, Terraform, Git, Gitlab CI/CD
 
 ### Machine Learning Skills
 While a lot of my knowledge and experience in building ML systems comes from working on a variety of awesome projects in industry (mentioned above), I've also sat down and cranked out the math in a variety of courses, such as [Unsupervised Learning]((https://www.cs.cornell.edu/courses/cs4786/2019sp/)), [Supervised Learning]((https://www.cs.cornell.edu/courses/cs4780/2019fa/)), (Graduate) [Foundations of Modern Machine Learnging]((https://www.cs.cornell.edu/courses/cs6781/2020sp/)), and (Graduate) Machine Learning Under a Modern Optimization Lens to name a few. My skills include:
