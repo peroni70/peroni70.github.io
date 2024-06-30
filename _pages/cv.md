@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Operations Research, Massachusetts Institute of Technology, expected 2025
+* Ph.D. in Operations Research, Massachusetts Institute of Technology, expected 2026
   * Advised by Professor Dimitris Bertsimas
   * Research Topics: Machine Learning for Healthcare, Interpretable Deep Learning, Multi-modal Machine Learning
   * GPA 5.0/5.0
@@ -28,7 +28,7 @@ applications.
 many data modalities often found in healthcare data. Serve as point-of-contact for
 our Hospital partners regarding data and compute infrastructure, encompassing 14 ongoing
 research projects.
-* __Model Selection and Deferral__ - Developing methods for selecting which ML models to use, and when to defer to human judgment, in high-stakes decision-making
+* __Adaptive Model Selection__ - Developing methods for selecting which ML models to use, and when to defer to human judgment, in high-stakes decision-making
 scenarios.
 
 Work experience

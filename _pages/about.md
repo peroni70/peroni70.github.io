@@ -19,7 +19,7 @@ As a developer, I use Python as my primary general-purpose language for backend 
 New Paper! Optimal Predictive-Policy Trees (OP2T)
 ======
 
-Given a collection of machine learning (ML) models, which one should developers be using for a particular scenario, and when? When are the models likely to be error-prone? Should we use a black-box model or an interpretable model? Our new paper proposes a tree-based methodology that provides intepretable policies for adaptive model selection. The result? Improved performance and model insight. Check out the pre-print [here](https://arxiv.org/abs/2405.20486)!
+Given a collection of machine learning (ML) models, which one should developers be using for a particular scenario, and when? When are the models likely to be error-prone? Should we use a black-box model or an interpretable model? Our new paper proposes a tree-based methodology that provides intepretable policies for adaptive model selection. The result? Improved performance and model insight. Check out the pre-print <a href="https://arxiv.org/abs/2405.20486" target="_blank">here</a>!
 
 <!-- Check out my latest blog posts [Old]
 ======
