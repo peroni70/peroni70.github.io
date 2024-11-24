@@ -86,7 +86,7 @@ Given that there was no fine-tuning at all, these results seem very impressive. 
 I'm really happy with the results of this experiment. The model performs well, the API and the UI are simple and functional, and it has actually helped me pick out new movies to watch! In the future, I plan to put up some new blog posts with updates on this project, perhaps after trying some new models and doing some fine-tuning. Stay tuned!
 
 
- {% cite einstein1950meaning einstein1905movement %}
+ {% cite einstein1905electrodynamics %}
 
  {% quote einstein1905electrodynamics %} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
 
