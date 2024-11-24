@@ -38,5 +38,5 @@ Ask questions like how was this measurement taken? Will it change in the future?
 
 $x_7 + 8$
 
-<d-cite key="arik_tabnet_2020"></d-cite>
+<!-- <d-cite key="arik_tabnet_2020"></d-cite> -->
 
