@@ -2,8 +2,8 @@
 title: 'ml-healthcare'
 date: 2024-07-16
 permalink: /posts/2024/01/ml-health/
-bibliography: test.bib
-layout: distill
+# bibliography: test.bib
+# layout: distill
 tags:
   - Healthcare
   - ML
