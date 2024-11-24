@@ -35,8 +35,9 @@ Ask questions like how was this measurement taken? Will it change in the future?
 ## Say Goodbye to the Cloud (For Now)
 
 ## Decisions or Predictions?
-
+<!-- latex equations need to be in double $ or  -->
 $$x_7 + 8$$
+\\( x_8 + 9 \\)
 <!-- $x_7 + 8$ -->
 
 <!-- <d-cite key="arik_tabnet_2020"></d-cite> -->
