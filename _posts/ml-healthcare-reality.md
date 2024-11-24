@@ -1,7 +1,9 @@
 ---
-title: ''
+title: 'ml-healthcare'
 date: 2024-07-16
 permalink: /posts/2024/01/ml-health/
+bibliography: test.bib
+layout: distill
 tags:
   - Healthcare
   - ML
@@ -36,8 +38,5 @@ Ask questions like how was this measurement taken? Will it change in the future?
 
 $x_7 + 8$
 
- {% cite einstein1950meaning einstein1905movement %}
+<d-cite key="arik_tabnet_2020"></d-cite>
 
- {% quote einstein1905electrodynamics %} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing. {% endquote %}
