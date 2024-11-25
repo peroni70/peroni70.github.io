@@ -2,7 +2,7 @@
 title: 'ml-healthcare'
 date: 2024-07-16
 permalink: /posts/2024/01/ml-health/
-# bibliography: test.bib
+bibliography: test.bib
 # layout: distill
 tags:
   - Healthcare
@@ -39,6 +39,10 @@ Ask questions like how was this measurement taken? Will it change in the future?
 $$x_7 + 8$$
 \\( x_8 + 9 \\)
 testing citation [@arik_tabnet_2020].
+
+This is a sentence that requires a citation[^1].
+
+[^1]: Author, A. A. (Year). Title of the paper. *Journal Name*, Volume(Issue), Page range. DOI/URL
 
 {% bibliography %}
 <!-- $x_7 + 8$ -->
