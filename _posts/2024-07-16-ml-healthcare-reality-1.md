@@ -44,7 +44,6 @@ This is a sentence that requires a citation[^1].
 
 [^1]: Author, A. A. (Year). Title of the paper. *Journal Name*, Volume(Issue), Page range. DOI/URL
 
-{% bibliography %}
 <!-- $x_7 + 8$ -->
 
 <!-- <d-cite key="arik_tabnet_2020"></d-cite> -->
