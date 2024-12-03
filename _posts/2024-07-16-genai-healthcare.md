@@ -29,7 +29,7 @@ $$y_0 = Ax_0 + \epsilon = y,$$
 and, noting that $x_t \sim \mathcal{N}(\alpha(t)x_0, \beta(t)^2I)$, we can derive the relation
 $$y_t = \alpha(t)y + \beta(t)Az,$$
 where $z \sim \mathcal{N}(0,I)$ and $\alpha(t), \beta(t)$ are noise schedules. Therefore, $y_t$ is an interpolation between the true measurements $y$ and noise $z$ that has been projected to the same space as $y$ through the transformation matrix $A$.
-\\( x_8 + 9 \\)
+
 From this point, the traditional iterative sampling process would sample timesteps $\{0=t_1 < t_2 < \dots < t_n=1\}$ and produce observations 
 $$x_{t_{i-1}} = h(x_{t_i}, z_i, s_{\theta^*}(x_{t_i}, t_i))$$
 where $h$ could be given by the Euler-Maruyama sampler,
