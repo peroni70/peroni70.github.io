@@ -62,10 +62,10 @@ Where $\eta$ is our step-size, and $s_{proj}(x_t, t)$ selects the components of 
 
 ## Extension to Consistency Models
 
-One drawback of the score matching diffusion models described in the previous section is that inference is often quite slow due to the many iterations involved in the generation process. Further modifications to the generation process, such as the additional update steps proposed, and especially the steps I suggested as future work, would only slow down this process further. The recently developed Consistency Models [CITE song] offer an alternative few-step diffusion approach that achieves impressive performance using a fraction of iterations required for traditional diffusion models. While a sufficient introduction to Consistency Models is outside the scope of this blog, at a high level -
+One drawback of the score matching diffusion models described in the previous section is that inference is often quite slow due to the many iterations involved in the generation process. Further modifications to the generation process, such as the additional update steps proposed, and especially the steps I suggested as future work, would only slow down this process further. The recently developed Consistency Models [CITE song] offer an alternative few-step diffusion approach that achieves impressive performance using a fraction of iterations required for traditional diffusion models. While a sufficient introduction to Consistency Models is outside the scope of this blog, at a high level
 
 [FIll IN]
--
+
 Notice, however, that the process used to generate images at inference is quite similar, visually, to the guided process for generating images in the previous section. In fact, such a proximal optimization step can be easily incorporated into the Consistency Model framework. In their work, Song describe such an approach as zero-shot image editing. The model itself would be trained as usual, to perform unconditional image generation. Then, at each step of the sampling process, prior to adding noise, we apply the proximal optimization step as defined in the previous section. This would achieve the same goal of guiding the generation process according to the measurements, but it would do so with only a few iterations. 
 
 # Public Synthetic Dataset Generation
