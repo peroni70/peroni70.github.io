@@ -31,14 +31,23 @@ $$y_t = \alpha(t)y + \beta(t)Az,$$
 where $z \sim \mathcal{N}(0,I)$ and $\alpha(t), \beta(t)$ are noise schedules. Therefore, $y_t$ is an interpolation between the true measurements $y$ and noise $z$ that has been projected to the same space as $y$ through the transformation matrix $A$.
 
 From this point, the traditional iterative sampling process would sample timesteps $\{0=t_1 < t_2 < \dots < t_n=1\}$ and produce observations 
+
 $$x_{t_{i-1}} = h(x_{t_i}, z_i, s_{\theta^*}(x_{t_i}, t_i))$$
+
 where $h$ could be given by the Euler-Maruyama sampler,
+
 $$h(x_{t_i}, z_i, s_{\theta^*}(x_{t_i}, t_i)) = x_{t_i} - f(t_i)x_{t_i}/N + g(t_i)^2s_{\theta^*}(x_{t_i}, t_i)/N + g(t_i)z_i/\sqrt{N}.$$
+
 In their work, [CITE song] propose an additional step in this denoising process that corrects for the measurement process,
+
 $$x_{t_i}' = k(x_{t_i}, y_{t_i}, \lambda)$$
+
 $$x_{t_{i-1}} = h(x_{t_i}', z_i, s_{\theta^*}(x_{t_i}, t_i))$$
+
 where, critically, the function $k$ solves a proximal optimization step that aims to minimize the distance between $x_{t_i}$ and $x_{t_i}'$ while also minimizing the distance between $x_{t_i}'$ and the hyperplane $\{x \in \mathbb{R}^n | Ax = y_{t_i}\}$. That is, $x_{t_i}'$ should be a projection of $x_{t_i}$ onto the feasible set $\{x \in \mathbb{R}^n | Ax = y_{t_i}\}$. With the hyperparameter $\lambda \in [0,1]$, the optimization problem becomes
+
 $$x_{t_i}' = \text{argmin}_{z \in \mathbb{R}^n} \; (1-\lambda)||z - x_{t_i}||^2 + \lambda\min_{u \in \mathbb{R}^n}||z - u||^2 \quad \text{s.t.} \quad Au = y_{t_i}$$
+
 where $\lambda$ controls the relative importance of the two objectives. Notice when $\lambda = 1$, we guarantee that $x_{t_i}'$ satisfies $Ax_{t_i}' = y_{t_i}$. In practice, the authors use Bayesian optimization to tune this hyperparameter empirically. Using a decomposition for the transform matrix $A$ (which only assumes $A$ is full rank), the authors are able to derive a closed form solution for $k$, such that this step is both exact and efficient. A visualization of this process is given below
 
 [INSERT VISUAL]
@@ -47,10 +56,9 @@ At this point in time, this approach represents the state of the art in solving 
 
 [INSERT VISUAL BRAINS]
 
-Coming from a background in Operations Research, the proximal optimization step that guides the image generation is particularly interesting. While the authors do not provide this ablation study, I would be curious to see how the generated images change qualitatively for varying values of $\lambda$. It is possible that when $\lambda=1$, the resulting image $x_{t_i}'$ looks somewhat unrealistic. Recall that when $\lambda=1$, the generated image $x_{t_i}'$ is a projection of $x_{t_i}$ onto the hyperplane $\{x \in \mathbb{R}^n | Ax = y_{t_i}\}$. While this point may be the closest in space to $x_{t_i}$ that satifies the measurement process, it may be that this point contains unrealistic artifacts. Instead, an alternative approach could be to follow a path from $x_{t_i}$ to the feasible hyperplane that maximizes the likelihood of $x_{t_i}'$. Given that we don't typically have access to the marginal distribution $p_t(x_t)$, we could instead find a path along which the score function is maximized. More formally, suppose we have a current sample $x_t$ with a corresponding measurement $y_t$. Then maximizing the score along some path $\gamma$ from $x_t$ to the hyperplane $Au = y_t$ at some point $x_t'$ gives us
+Coming from a background in Operations Research, the proximal optimization step that guides the image generation is particularly interesting. While the authors do not provide this ablation study, I would be curious to see how the generated images change qualitatively for varying values of $\lambda$. It is possible that when $\lambda=1$, the resulting image $x_{t_i}'$ looks somewhat unrealistic. Recall that when $\lambda=1$, the generated image $x_{t_i}'$ is a projection of $x_{t_i}$ onto the hyperplane $\\{x \in \mathbb{R}^n : Ax = y_{t_i}\\}$. While this point may be the closest in space to $x_{t_i}$ that satifies the measurement process, it may be that this point contains unrealistic artifacts. Instead, an alternative approach could be to follow a path from $x_{t_i}$ to the feasible hyperplane that maximizes the likelihood of $x_{t_i}'$. Given that we don't typically have access to the marginal distribution $p_t(x_t)$, we could instead find a path along which the score function is maximized. More formally, suppose we have a current sample $x_t$ with a corresponding measurement $y_t$. Then maximizing the score along some path $\gamma$ from $x_t$ to the hyperplane $Au = y_t$ at some point $x_t'$ gives us
 
-$$
-\max_{x_t' : Ax_t' = y_t}\int_\gamma \nabla_x \log(p(x)) dx = \max_{x_t' : Ax_t' = y_t} \log(p(x_t')).
+$$\max_{x_t' : Ax_t' = y_t}\int_\gamma \nabla_x \log(p(x)) dx = \max_{x_t' : Ax_t' = y_t} \log(p(x_t')).
 $$
 
 However, we don't typically have access to $p(x_t')$, but we do have access to $s_{\theta^*}(x_{t}, t) \approx \nabla_{x_t}\log(p(x_t))$, which we can use to recover a path that increases $p(x_t')$.
