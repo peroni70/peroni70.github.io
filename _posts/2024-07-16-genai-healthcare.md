@@ -9,8 +9,10 @@ tags:
   - ML
 ---
 
+<p align="center">
+  <img src="https://peroni70.github.io/images/brain.gif" />
+</p>
 
-![](/images/brain.gif)
 # Introduction
 
 While major strides have been made in deep generative modeling, including significant advances in natural language, image, and video generation, there remains a disconnect between these technical advances and practical applications, especially for social good. A critical application area for deep learning is healthcare, where high-stakes decision-making occurs daily and learning algorithms can directly improve lives. In my own research, and in the broader machine learning for healthcare community, the focus has largely been on discriminative and prescriptive modeling. These approaches are directly motivated by the problems encountered in health applications, such as predicting the risk of developing a disease, predicting whether a scan includes a tumor, or prescribing the best treatment to maximize patient outcomes. Recently, language-based generative models have gained traction as a practically useful tool in healthcare tasks, assisting with summarization, feature extraction, and even structured prediction [CITE popular healthcare foundation models]. The flexibility of natural language, along with the impressive zero-shot and in-context learning ability of these models, allows them to perform a large variety of useful tasks. However, the motivation for image-based generative modeling in health applications is less clear. 
@@ -73,7 +75,7 @@ $$s_{proj}(x_t, t) =  s_{\theta^*}(x_{t}, t) \odot (s_{\theta^*}(x_{t}, t) \odot
 
 $$ x_t' \leftarrow x_t' + \eta \cdot s_{proj}(x_t, t)$$
 
-Where $\eta$ is our step-size, and $s_{proj}(x_t, t)$ selects the components of $s_{\theta^*}(x_{t}, t)$ that are in the direction of the feasible hyperplane. In the case $||s_{proj}(x_t, t)|| \approx 0$, we could default to the proximal step. This process could be repeated multiple times until $x_t'$ approximately satisfies the measurment constraints. Crucially, such approaches would eliminate the need for the sensitive hyperparameter $\lambda$, and may produce higher quality results.
+Where $\eta$ is our step-size, and $s_{proj}(x_t, t)$ selects the components of $s_{\theta^*}(x_{t}, t)$ that are in the direction of the feasible hyperplane. In the case $\|s_{proj}(x_t, t)\| \approx 0$, we could default to the proximal step. This process could be repeated multiple times until $x_t'$ approximately satisfies the measurment constraints. Crucially, such approaches would eliminate the need for the sensitive hyperparameter $\lambda$, and may produce higher quality results.
 
 ## Extension to Consistency Models
 
