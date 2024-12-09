@@ -54,13 +54,15 @@ where, critically, the function $k$ solves a proximal optimization step that aim
 
 $$x_{t_i}' = \text{argmin}_{z \in \mathbb{R}^n} \; (1-\lambda)||z - x_{t_i}||^2 + \lambda\min_{u \in \mathbb{R}^n}||z - u||^2 \quad \text{s.t.} \quad Au = y_{t_i}$$
 
-where $\lambda$ controls the relative importance of the two objectives. Notice when $\lambda = 1$, we guarantee that $x_{t_i}'$ satisfies $Ax_{t_i}' = y_{t_i}$. In practice, the authors use Bayesian optimization to tune this hyperparameter empirically. Using a decomposition for the transform matrix $A$ (which only assumes $A$ is full rank), the authors are able to derive a closed form solution for $k$, such that this step is both exact and efficient. A visualization of this process is given below
+where $\lambda$ controls the relative importance of the two objectives. Notice when $\lambda = 1$, we guarantee that $x_{t_i}'$ satisfies $Ax_{t_i}' = y_{t_i}$. In practice, the authors use Bayesian optimization to tune this hyperparameter empirically. Using a decomposition for the transform matrix $A$ (which only assumes $A$ is full rank), the authors are able to derive a closed form solution for $k$, such that this step is both exact and efficient. A visualization of this process is given below.
 
-[INSERT VISUAL]
+![](/images/brain_inverse_img.png)
+*Guided generation of samples from an unconditional score model from Song et al. (2022)*
 
 At this point in time, this approach represents the state of the art in solving such inverse problems, even matching or outperforming supervised learning approaches while providing significant flexibility. In my opinion, this idea of guiding unconditional genertive models at inference is extremely promising for a variety of applications, but especially in healthcare, where labeled data is less readily available and conditions change across different hospital systems. 
 
-[INSERT VISUAL BRAINS]
+![](/images/brain_visual.png)
+*Results from Song et al. (2022) applied to CT dataset.*
 
 Coming from a background in Operations Research, the proximal optimization step that guides the image generation is particularly interesting. While the authors do not provide this ablation study, I would be curious to see how the generated images change qualitatively for varying values of $\lambda$. It is possible that when $\lambda=1$, the resulting image $x_{t_i}'$ looks somewhat unrealistic. Recall that when $\lambda=1$, the generated image $x_{t_i}'$ is a projection of $x_{t_i}$ onto the hyperplane $\\{x \in \mathbb{R}^n : Ax = y_{t_i}\\}$. While this point may be the closest in space to $x_{t_i}$ that satifies the measurement process, it may be that this point contains unrealistic artifacts. Instead, an alternative approach could be to follow a path from $x_{t_i}$ to the feasible hyperplane that maximizes the likelihood of $x_{t_i}'$. Given that we don't typically have access to the marginal distribution $p_t(x_t)$, we could instead find a path along which the score function is maximized. More formally, suppose we have a current sample $x_t$ with a corresponding measurement $y_t$. Then maximizing the score along some path $\gamma$ from $x_t$ to the hyperplane $Au = y_t$ at some point $x_t'$ gives us
 
