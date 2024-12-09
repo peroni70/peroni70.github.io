@@ -10,7 +10,7 @@ tags:
 ---
 
 <p align="center">
-  <img src="https://peroni70.github.io/images/brain.gif", width=100% />
+  <img src="https://peroni70.github.io/images/brain.gif" style="width: 100%" />
 </p>
 
 # Introduction
