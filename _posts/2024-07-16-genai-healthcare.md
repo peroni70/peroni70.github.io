@@ -96,7 +96,9 @@ Notice, however, that the process used to generate images at inference is quite 
 
 To further motivate the idea I mentioned in the previous section, I trained my own unconditional consistency model on the MNIST dataset and tried guiding the sampling procedure following the correction approach proposed in Song et al. (2022). Specifically, the lower order representation I create is simply the bottom half of the original image. Therefore, the model must essentially complete the top half of the image (similar to how inpainting is done). I provide a visualization of some of the results below. While I experimented with the $\lambda$ hyperparameter, I found that for $\lambda < 0.98$, the generated samples completely ignored the measurement conditions. As an aside, in the Consistency model paper, the zero-shot editing algorihtm is actually almost equivalent to the proximal optimization step posed in Song et al. (2022), except that $\lambda = 1$ always. I suspect this is a property of consistency models and the way they denoise samples. It is likely that taking such a large step, from pure noise ($t=T$) to a realized sample ($t = 0$) imposes too much structure in the output, and the distance between the output and the measurement constraints is too large to be corrected. In the visualization below (with $\lambda = 1$), some of the completions look like real digits. However, notice how the last sample looks like a one stuck onto the bottom of a four or a nine. While the image satisfies the measurement constraints, I argue that snapping the samples to a low energy point that satisfies the constrain, rather than the closest point, might resolve this issue.
 
-![](/images/mnist.png)
+<p align="center">
+  <img src="https://peroni70.github.io/images/mnist.png" style="width: 100%" />
+</p>
 *Selected output from consistency model with zero-shot editing for MNIST*
 
 # Public Synthetic Dataset Generation
